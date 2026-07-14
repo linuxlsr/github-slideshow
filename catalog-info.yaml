@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-slideshow
+  description: >
+    A robot-powered GitHub Actions training repository.
+  annotations:
+    github.com/project-slug: linuxlsr/github-slideshow
+  tags:
+    - github-actions
+    - learning
+spec:
+  type: other
+  lifecycle: experimental
+  owner: user:linuxlsr
